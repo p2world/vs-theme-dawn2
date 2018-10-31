@@ -1,0 +1,32 @@
+{
+	"name": "theme-dawn2",
+	"displayName": "dawn2",
+	"description": "theme like dawn",
+	"categories": [ "Themes" ],
+	"version": "1.0.1",
+	"publisher": "p2world",
+	"engines": { "vscode": "*" },
+	"contributes": {
+		"themes": [
+			{
+				"id": "dawn2_plus",
+				"label": "dawn2+",
+				"uiTheme": "vs",
+				"path": "./themes/light_plus.json"
+			},
+			{
+				"id": "dawn2_pure",
+				"label": "dawn2 pure",
+				"uiTheme": "vs",
+				"path": "./themes/light_vs.json"
+			}
+		],
+		"iconThemes": [
+			{
+				"id": "dawn2 vs-minimal",
+				"label": "dawn2 Minimal",
+				"path": "./fileicons/vs_minimal-icon-theme.json"
+			}
+		]
+	}
+}
